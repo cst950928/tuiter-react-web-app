@@ -1,13 +1,8 @@
-body {
-    background-color: black;
-    padding-left: 16px;
-    padding-right: 16px;
-    height: 100%;
-}
+
 
 #wd-outer-div {
-    /*border-color: rgb(47, 51, 54);*/
-    border-color: yellow;
+    border-color: rgb(47, 51, 54);
+    /*border-color: yellow;*/
     border-style: solid;
 }
 
@@ -21,18 +16,34 @@ body {
     border-radius: 20px; /* rounded corners */
     background-color: #333;
     height: 50px;
-    border-width: 0px;
+    border-width: 10px;
     padding-left: 16px;
     width:100%;
 }
 .wd-search input[value] {
     color: white;
     font-size: 1em;
-    /*padding-left: 32px;*/
 }
 .wd-search input::placeholder {
     color: rgb(110, 118, 125);
-    padding-left: 32px;
+}
+.wd-search input[type="search"]:focus {
+    box-shadow: 0 0 3px 0 #1183d6;
+    border-color: rgb(47, 51, 54);
+    outline: none;
+}
+.wd-search form {
+    width:100%;
+}
+.wd-search input {
+    color:white;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(47, 51, 54);
+    width: 100%;
+    padding: 9px 4px 9px 50px;
+    background: transparent url("../images/search.png") no-repeat 16px center;
+    background-size: 30px;
 }
 
 .wd-search img {
@@ -77,9 +88,9 @@ body {
 }
 
 .wd-hyperlink-div {
-    border-color: #61dafb;
-    border-width: 2px;
-    border-style: solid;
+    /*border-color: #61dafb;*/
+    /*border-width: 2px;*/
+    /*border-style: solid;*/
     display: flex;
     flex-wrap: wrap;
     align-items: stretch;
@@ -91,20 +102,28 @@ body {
     font-size: 15px;
     padding: 16px;
     font-weight: bold;
+    padding-left: 0;
+    padding-right: 0;
+    border-color: black;
+    border-style: solid;
+    margin-left: 16px;
+    border-width: 0px 0px 4px 0px;
+
 }
 
 #wd-hyperlink-focus {
     color: rgb(29,161,242);
     border-color: rgb(29,161,242);
     border-style: solid;
-    border-width: 0px 0px 4px 0px;
+    /*border-width: 0px 0px 4px 0px;*/
+    /*border-width: 4px 4px 4px 4px;*/
 }
 
 .wd-separator-bold {
     background-color: #333;
     height:15px;
     border-style: solid;
-    border-width: 2px;
+    border-width: 1px;
     border-color: rgb(110, 118, 125);
 }
 
@@ -113,16 +132,14 @@ body {
 }
 .wd-post-1 {
     padding:16px;
-    border-color: #61dafb;
+    border-color: rgb(47, 51, 54);
     border-style: solid;
+    border-width: 0px;
 }
 .wd-post-1 .wd-topic {
     color: rgb(110, 118, 125);
     font-size: 13px;
     display:flex;
-    /*border-color: #61dafb;*/
-    /*border-width: 2px;*/
-    /*border-style: solid;*/
 }
 
 .wd-post-1 .wd-title {
@@ -143,29 +160,24 @@ body {
     width: 50%;
 }
 
-.wd-post-1 .wd-topic-img {
-    float:right;
-    width: 50%;
-    text-align: right;
-}
-
 .wd-post-2 {
     padding-right:16px;
-    border-color: #61dafb;
+    border-color: rgb(47, 51, 54);
     border-style: solid;
     display: flex;
+    border-width: 1px 0px 1px 0px;
 }
 .wd-post-2 .wd-content {
     float:left;
     width:50%;
-    border-color: red;
-    border-width: 2px;
-    border-style: solid;
+    /*border-color: red;*/
+    /*border-width: 2px;*/
+    /*border-style: solid;*/
 }
 .wd-post-2 .wd-post-img {
-    border-color: #61dafb;
-    border-width: 2px;
-    border-style: solid;
+    /*border-color: #61dafb;*/
+    /*border-width: 2px;*/
+    /*border-style: solid;*/
     float:right;
     width:50%;
     text-align: right;
@@ -176,9 +188,9 @@ body {
     /*width: 50%;*/
     color:white;
     font-size: 13px;
-    border-color: green;
-    border-width: 2px;
-    border-style: solid;
+    /*border-color: green;*/
+    /*border-width: 2px;*/
+    /*border-style: solid;*/
 }
 
 .wd-post-2 img {
@@ -191,9 +203,9 @@ body {
     font-weight: bold;
     padding-top:5px;
     padding-bottom:5px;
-    border-color: #61dafb;
-    border-width: 2px;
-    border-style: solid;
+    /*border-color: #61dafb;*/
+    /*border-width: 2px;*/
+    /*border-style: solid;*/
     padding-left: 16px;
 }
 
@@ -224,4 +236,8 @@ body {
      font-size:13px;
      float: left;
      color: rgb(110, 118, 125);
+ }
+
+ .wd-post-2 .wd-topic-only {
+     padding-left: 0px;
  }

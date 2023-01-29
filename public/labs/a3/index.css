@@ -210,8 +210,219 @@ p#id-selector-2 {
     float: left;
 }
 
+.rotate-paragraph {
+    width: 250px;
+    height: 250px;
+    transform: rotate(90deg);
+}
 
+.rotate-list {
+    transform: rotate(12deg);
+    width: 100px;
+    background-color: red;
+    color: white;
+}
 
+.rotate-list-self {
+    transform: rotate(-12deg);
+    width: 100px;
+    background-color: red;
+    color: white;
+}
 
+.rotate-list-items li {
+    width: 100px;
+    text-align: right;
+}
+.rotate-list-items li:nth-child(1) {
+    transform: rotate(-10deg);
+    background-color: yellow;
+}
+.rotate-list-items li:nth-child(2) {
+    transform: rotate(2deg);
+    background-color: blue;
+    color: white;
+}
+.rotate-list-items li:nth-child(3) {
+    transform: rotate(10deg);
+    background-color: red;
+}
 
+.rotate-list-items-self li {
+    width: 100px;
+    text-align: right;
+}
+.rotate-list-items-self li:nth-child(1) {
+    transform: rotate(10deg);
+    background-color: yellow;
+}
+.rotate-list-items-self li:nth-child(2) {
+    transform: rotate(-2deg);
+    background-color: blue;
+    color: white;
+}
+.rotate-list-items-self li:nth-child(3) {
+    transform: rotate(-10deg);
+    background-color: red;
+}
+
+.rotate-image {
+    transform: rotate(-10deg);
+}
+
+.rotate-image-self {
+    transform: rotate(10deg);
+}
+
+.rotate-table {
+    position: relative;
+    left: 50px;
+    transform: rotate(15deg);}
+.rotate-table tr:nth-child(1) {
+    background-color: black;
+    color: white;}
+.rotate-table tr:nth-child(n+2) {
+    background-color: yellow;}
+.rotate-table tr:nth-child(n+5) {
+    background-color: blue;
+    color: white;}
+.rotate-table tr:nth-child(n+8) {
+    background-color: red;}
+.rotate-table tr:nth-child(n+11) {
+    background-color: green;
+    color: white;
+}
+
+.gradients-linear {
+    background: linear-gradient(yellow, red);
+    width: 200px;
+    height: 200px;
+}
+
+.gradients-linear-self {
+    background: linear-gradient(white, blue);
+    width: 200px;
+    height: 200px;
+}
+
+.gradients-radial {
+    background: radial-gradient(yellow, green);
+    width: 200px;
+    height: 200px;
+}
+
+.gradients-radial-self {
+    background: radial-gradient(red, purple);
+    width: 200px;
+    height: 200px;
+}
+
+.gradients-positioned {
+    background:
+            radial-gradient(
+                    at top left, blue, red);
+    width: 200px;
+    height: 200px;
+    color: white;
+}
+
+.gradients-positioned-self {
+    background:
+            radial-gradient(
+                    at bottom right, yellow, green);
+    width: 200px;
+    height: 200px;
+    color: black;
+}
+
+.animation-keyframes {
+    position: relative;
+    top: 0px;
+    animation-duration: 7s;
+    animation-name: slidein;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    color: white;
+}
+@keyframes slidein {
+    from {
+        position: relative;
+        top: 0px;
+        font-size: 100%;
+        margin-left: 100%;
+        width: 200px;
+        height: 200px;
+        background-color: yellow;
+        color: black;
+    }
+    50% {
+        position: relative;
+        top: -200px;
+        font-size: 300%;
+        margin-left: 25%;
+        width: 400px;
+        height: 400px;
+        background-color: blue;
+        color: white;
+    }
+
+    to {
+        position: relative;
+        top: 0px;
+        font-size: 100%;
+        margin-left: 0%;
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        color: white;
+    }
+}
+
+.animation-keyframes-self {
+    position: relative;
+    top: 0px;
+    animation-duration: 10s;
+    animation-name: myexample;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    width: 300px;
+    height: 300px;
+    background-color: darkseagreen;
+    color: black;
+}
+
+@keyframes myexample {
+    from {
+        position: relative;
+        top: 0px;
+        font-size: 100%;
+        margin-left: 100%;
+        width: 200px;
+        height: 200px;
+        background-color: mediumpurple;
+        color: black;
+    }
+    50% {
+        position: relative;
+        top: -300px;
+        font-size: 200%;
+        margin-left: 25%;
+        width: 400px;
+        height: 400px;
+        background-color: red;
+        color: white;
+    }
+
+    to {
+        position: relative;
+        top: 0px;
+        font-size: 200%;
+        margin-left: 0%;
+        width: 300px;
+        height: 300px;
+        background-color: darkgray;
+        color: black;
+    }
+}
 
