@@ -1,3 +1,7 @@
+.wd-back {
+    text-decoration: none;
+    color:rgb(110, 118, 125);
+}
 body {
     background-color: black;
     margin-left: 0px;
@@ -17,4 +21,8 @@ body {
     /*border-color: yellow;*/
     position: relative;
     /*position: absolute; !* positions the image absolutely within the input-img container *!*/
+}
+
+.wd-font-weight-bold {
+    font-weight: bold;
 }
