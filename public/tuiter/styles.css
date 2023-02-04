@@ -1,7 +1,12 @@
 .wd-back {
+    padding:12px 0px 12px 0px;
+}
+
+.wd-back a{
     text-decoration: none;
     color:rgb(110, 118, 125);
 }
+
 body {
     background-color: black;
     margin-left: 0px;
