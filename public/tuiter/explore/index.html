@@ -5,12 +5,14 @@
 	<title>Explore</title>
 	<link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
 	<link href="../../vendors/fontawesome/css/all.css" rel="stylesheet"/>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+	      rel="stylesheet"/>
 	<link href="./index.css" rel="stylesheet">
 	<link href="../styles.css" rel="stylesheet">
 </head>
 <body>
 	<a href="../navigation.html">Back</a>
-	<div class="container p-0">
+	<div class="container p-0 mt-2 mb-2">
 		<div class="row">
 			<div class="col-xl-2 p-0 sidebar mx-2 col-lg-1 col-md-2 col-sm-2 col-2">
 				<ul class="list-group col-xl-12 col-lg-8 col-md-12 col-sm-12 col-12">
@@ -19,36 +21,35 @@
 						<span class="col-xl-10 align-self-center mx-2 d-none d-xl-block"></span>
 					</li>
 					<li class="list-group-item d-flex align-items-center">
-						<span><i class="col-lg-2 fa fa-home fa-x col-lg-12 col-md-12"></i></span>
+						<span><i class="col-xl-2 fa fa-home fa-x col-lg-12 col-md-12"></i></span>
 						<span class="col-xl-10 align-self-center mx-2 d-none d-xl-block">Home</span>
 					</li>
 					<li class="list-group-item d-flex align-items-center active">
-<!-- 						<span><i class="col-lg-2 fa fa-frame fa-x col-lg-12 col-md-12"></i></span> -->
-						<span><img src="../images/upload.png" class="col-lg-2 fa-x col-lg-12 col-md-12"/></span>
+						<span class="col-xl-1 col-lg-12 col-md-12 text-white fw-bold fs-4">#</span>
 						<span class="col-xl-10 align-self-center mx-2 d-none d-xl-block">Explore</span>
 					</li>
 					<li class="list-group-item d-flex align-items-center">
-						<span><i class="col-lg-2 fa fa-bell fa-x col-lg-12 col-md-12"></i></span>
+						<span><i class="col-xl-2 fa fa-bell fa-x col-lg-12 col-md-12"></i></span>
 						<span class="col-xl-10 align-self-center mx-2 d-none d-xl-block">Notifications</span>
 					</li>
 					<li class="list-group-item d-flex align-items-center">
-						<span><i class="col-lg-2 fa fa-envelope fa-x col-lg-12 col-md-12"></i></span>
+						<span><i class="col-xl-2 fa fa-envelope fa-x col-lg-12 col-md-12"></i></span>
 						<span class="col-xl-10 align-self-center mx-2 d-none d-xl-block">Messages</span>
 					</li>
 					<li class="list-group-item d-flex align-items-center">
-						<span><i class="col-lg-2 fa fa-bookmark fa-x col-lg-12 col-md-12"></i></span>
+						<span><i class="col-xl-2 fa fa-bookmark fa-x col-lg-12 col-md-12"></i></span>
 						<span class="col-xl-10 align-self-center mx-2 d-none d-xl-block">Bookmarks</span>
 					</li>
 					<li class="list-group-item d-flex align-items-center">
-						<span><i class="col-lg-2 fa fa-list fa-x col-lg-12 col-md-12"></i></span>
+						<span><i class="col-xl-2 fa fa-list fa-x col-lg-12 col-md-12"></i></span>
 						<span class="col-xl-10 align-self-center mx-2 d-none d-xl-block">Lists</span>
 					</li>
 					<li class="list-group-item d-flex align-items-center">
-						<span><i class="col-lg-2 fa fa-user fa-x col-lg-12 col-md-12"></i></span>
+						<span><i class="col-xl-2 fa fa-user fa-x col-lg-12 col-md-12"></i></span>
 						<span class="col-xl-10 align-self-center mx-2 d-none d-xl-block">Profile</span>
 					</li>
 					<li class="list-group-item d-flex align-items-center">
-						<span class="col-lg-2 fa-stack p-0 m-0" style="font-size:0.5em;">
+						<span class="col-xl-2 fa-stack p-0 m-0" style="font-size:0.5em;">
 							<i class="fas fa-circle fa-stack-2x"></i>
 							<i class="fa fa-ellipsis-h fa-stack-1x fa-inverse"></i>
 						</span>
@@ -57,16 +58,16 @@
 				</ul>
 				<div class="row m-0" style="width: 100%;">
 					<button class="btn btn-primary btn-block mt-2 wd-rounded">
-						Tweet
+						Tuit
 					</button>
 				</div>
 			</div>
 			<div class="col-xl-6 p-0 mx-2 col-lg-7 col-md-9 col-sm-9 col-9">
-				<div class="m-0 p-0" style="width: 100%;">
+				<div class="ms-0 me-0 mt-0 p-0 mb-2" style="width: 100%;">
 					<form class="form-inline row m-0 pl-3">
 						<div class="form-group col-11 p-0">
 							<div class="ps-0 pe-0 position-relative">
-								<input type="text" class="form-control wd-rounded ps-5" placeholder="Search Twitter">
+								<input type="text" class="form-control wd-rounded ps-5" placeholder="Search Tuiter">
 								<div class="position-absolute bottom-0 mb-2">
 									<i class="fas fa-search ms-2"></i>
 								</div>
@@ -76,26 +77,26 @@
 						                                                                 style="color: #007bff;"></i></div>
 					</form>
 				</div>
-				<div class="mt-2">
+				<div class="mb-2">
 					<ul class="nav nav-tabs">
 						<li class="nav-item">
-							<a class="nav-link active" href="#">For you</a>
+							<a class="nav-link active" href="for-you.html">For you</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">Trending</a>
+							<a class="nav-link" href="trending.html">Trending</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">News</a>
+							<a class="nav-link" href="news.html">News</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">Sports</a>
+							<a class="nav-link" href="sports.html">Sports</a>
 						</li>
 						<li class="nav-item d-none d-md-block">
-							<a class="nav-link" href="#">Entertainment</a>
+							<a class="nav-link" href="entertainment.html">Entertainment</a>
 						</li>
 					</ul>
 				</div>
-				<div class="card mt-2 card">
+				<div class="card">
 					<div class="position-relative">
 						<img src="../images/spacex.jpeg"
 						     class="card-img-top" alt="...">
