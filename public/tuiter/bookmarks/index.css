@@ -80,6 +80,7 @@
 
 .wd-bookmark-text-body {
     color:white;
+    margin-top:4px;
     margin-left: 12px;
     font-size: 15px;
     max-width: 506px;
@@ -94,6 +95,11 @@
     border-radius: 10px;
     width:504px;
     margin-left:12px;
+}
+
+.wd-img-wrapper {
+    height:264px;
+    width:504px;
 }
 
 .wd-bookmark-card img {
@@ -114,11 +120,11 @@
     font-size: 15px;
     color:rgb(110, 118, 125);
     padding: 12px;
+    padding-top:4px;
 }
 
 .wd-bookmark-card-link {
-    margin-left:12px;
-    margin-bottom: 12px;
+    padding-top:2px;
     font-size: 15px;
     color:rgb(110, 118, 125);
 
