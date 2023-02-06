@@ -2,14 +2,18 @@
     border-radius: 20px;
 }
 
-.wd-left-rounded {
-    border-radius: 0px 0px 0px 20px;
+.wd-width-100 {
+    width: 100%;
 }
-
-.wd-right-rounded {
-    border-radius: 0px 20px 20px 0px;
+.wd-width-90 {
+    width: 90px;
 }
-
-.img-text {
-    padding: 10px;
+.wd-width-40 {
+    width: 40px;
+}
+.wd-font-half {
+    font-size:0.5em;
+}
+.wd-color-primary {
+    color: #0d6efd;
 }
