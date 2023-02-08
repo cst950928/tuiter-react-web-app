@@ -1,0 +1,126 @@
+.wd-rounded {
+    border-radius: 20px;
+}
+
+.wd-slight-rounded {
+    border-radius:5px;
+}
+
+.wd-width-100 {
+    width: 100%;
+}
+
+.wd-width-90 {
+    width: 90px;
+}
+.wd-width-40 {
+    width: 40px;
+}
+.wd-width-25 {
+    width: 25px;
+}
+.wd-width-20 {
+    width: 20px;
+}
+.wd-width-10 {
+    width: 10px;
+}
+.wd-font-half {
+    font-size:0.5em;
+}
+
+.wd-color-blue {
+    color: #079dec;
+}
+
+.wd-font-half {
+    font-size:0.5em;
+}
+
+.active.override-active {
+    background-color: white;
+    border-color: white;
+}
+
+.btn-primary {
+    color: white;
+    background-color: #079dec;
+    border-color: #079dec;
+}
+
+.btn-primary:hover {
+    background-color: #079dec;
+    border-color: #079dec;
+}
+
+.list-group.wd-override-list-border-radius {
+    border-radius:20px;
+}
+.list-group .list-group-item {
+    border-width: 0px;
+}
+.list-group-item.override-background {
+    background-color: #eff3f4;
+}
+.override-input {
+    background-color: #eff3f4;
+    border-width:0px;
+}
+
+.wd-gray-color {
+    color: gray;
+}
+
+/*.nav-tabs .nav-link {*/
+/*    border-width: 1px;*/
+/*    border-color:blue;*/
+/*}*/
+.nav {
+    border-width: 0px;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    border-color: #079dec;
+    border-width:0px 0px 4px 0px;
+    color:black;
+    font-weight: bold;
+    padding:1em 0em 1em 0em;
+    margin-left:1.5em;
+    margin-right:1.5em;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link {
+    color:gray;
+    font-weight: bold;
+    padding:1em 1.5em 1em 1.5em;
+    font-size:14px;
+}
+
+.wd-text-xs {
+    font-size:14px;
+}
+
+.wd-text-lg {
+    font-size:18px;
+}
+
+.wd-override-hyperlink {
+    text-decoration: none;
+    color:#079dec;
+}
+
+.wd-override-hyperlink:hover {
+    color:#079dec;
+}
+
+.wd-nav-bottom-margin {
+    margin-bottom:2px;
+}
+
+.wd-light-gray {
+    background-color:#eff3f4;
+}
+
+.wd-no-decoration {
+    color:black;
+    text-decoration: none;
+}

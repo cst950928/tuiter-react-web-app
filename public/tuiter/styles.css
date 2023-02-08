@@ -1,0 +1,34 @@
+.wd-back {
+    padding:12px 0px 12px 0px;
+}
+
+.wd-back a{
+    text-decoration: none;
+    color:rgb(110, 118, 125);
+}
+
+body {
+    background-color: black;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    height: 100%;
+    border-width: 1px;
+    font-family: Arial;
+}
+
+.wd-topic-ellipsis {
+    float:right;
+    width: 50%;
+    text-align: right;
+    /*border-style: solid;*/
+    /*border-color: yellow;*/
+    position: relative;
+    /*position: absolute; !* positions the image absolutely within the input-img container *!*/
+}
+
+.wd-font-weight-bold {
+    font-weight: bold;
+}

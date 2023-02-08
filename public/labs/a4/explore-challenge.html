@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Explore-Challenge</title>
+  <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="../../vendors/fontawesome/css/all.css" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        rel="stylesheet"/>
+  <link href="./explore-challenge.css" rel="stylesheet">
+</head>
+<body>
+<a href="../../index.html">Back</a>
+<div class="p-0 mt-2 mb-2 container">
+  <div class="row">
+    <div class="col-xl-2 p-0 mx-2 sidebar col-lg-1 col-md-2 col-sm-2 col-2 pt-3">
+      <ul class="list-group col-xl-12 col-lg-8 col-md-12 col-sm-12 col-12">
+        <li class="list-group-item d-flex align-items-center pb-3">
+          <!-- 						<span><i class="col-xl-2 fa-solid fa-t fa-x-1 col-lg-12 col-md-12 col wd-color-blue"></i></span> -->
+          <a href="#"><img class="col-xl-2 col-lg-12 col-md-12 wd-width-25" src="../../tuiter/images/T.png"/></a>
+          <span class="col-xl-10 align-self-center mx-2 d-none d-xl-block"></span>
+        </li>
+        <li class="list-group-item d-flex align-items-center pb-3">
+          <a class="d-flex justify-content-start wd-no-decoration" href="#">
+							<span class="position-relative d-flex justify-content-end">
+								<img class="col-xl-2 col-lg-12 col-md-12 wd-width-25" src="../../tuiter/images/home2.png"/>
+								<div class="position-absolute d-flex justify-content-end align-items-start">
+									<img width="5px" src="../../tuiter/images/blue-dot.png"/>
+								</div>
+							</span>
+            <span class="col-xl-10 align-self-center mx-2 d-none d-xl-block ps-2 text-black">Home</span>
+          </a>
+        </li>
+        <li class="list-group-item d-flex align-items-center active override-active pb-3">
+          <a class="d-flex justify-content-start wd-no-decoration" href="#">
+            <img class="col-xl-2 col-lg-12 col-md-12 wd-width-25" src="../../tuiter/images/hashtag.png"/>
+            <span class="col-xl-10 align-self-center mx-2 d-none d-xl-block fw-bold text-black ps-2">Explore</span>
+          </a>
+        </li>
+        <li class="list-group-item d-flex align-items-center pb-3">
+          <a class="d-flex justify-content-start wd-no-decoration" href="#">
+            <span class="d-flex align-items-center"><img class="col-xl-2 col-lg-12 col-md-12 wd-width-25" src="../../tuiter/images/bell.png"/></span>
+            <span class="col-xl-10 align-self-center mx-2 d-none d-xl-block ps-2 text-black">Notifications</span>
+          </a>
+        </li>
+        <li class="list-group-item d-flex align-items-center pb-3">
+          <a class="d-flex justify-content-start wd-no-decoration" href="#">
+            <span class="d-flex align-items-center"><img class="col-xl-2 col-lg-12 col-md-12 wd-width-25" src="../../tuiter/images/envelop.png"/></span>
+            <span class="col-xl-10 align-self-center mx-2 d-none d-xl-block ps-2 text-black">Messages</span>
+          </a>
+        </li>
+        <li class="list-group-item d-flex align-items-center pb-3">
+          <a class="d-flex justify-content-start wd-no-decoration" href="#">
+            <span class="d-flex align-items-center"><img class="col-xl-2 col-lg-12 col-md-12 wd-width-25" src="../../tuiter/images/bookmark.png"/></span>
+            <span class="col-xl-10 align-self-center mx-2 d-none d-xl-block ps-2 text-black">Bookmarks</span>
+          </a>
+        </li>
+        <li class="list-group-item d-flex align-items-center pb-3">
+          <a class="d-flex justify-content-start wd-no-decoration" href="#">
+            <span class="d-flex align-items-center"><img class="col-xl-2 col-lg-12 col-md-12 wd-width-25" src="../../tuiter/images/fire.png"/></span>
+            <span class="col-xl-10 align-self-center mx-2 d-none d-xl-block ps-2 text-black">Top Articles</span>
+          </a>
+        </li>
+        <li class="list-group-item d-flex align-items-center pb-3">
+          <a class="d-flex justify-content-start wd-no-decoration" href="#">
+            <span class="d-flex align-items-center"><img class="col-xl-2 col-lg-12 col-md-12 wd-width-25" src="../../tuiter/images/user.png"/></span>
+            <span class="col-xl-10 align-self-center mx-2 d-none d-xl-block ps-2 text-black">Profile</span>
+          </a>
+        </li>
+        <li class="list-group-item d-flex align-items-center pb-3">
+          <a class="d-flex justify-content-start wd-no-decoration" href="#">
+            <span class="d-flex align-items-center"><img class="col-xl-2 col-lg-12 col-md-12 wd-width-25" src="../../tuiter/images/view-more.png"/></span>
+            <span class="col-xl-10 align-self-center mx-2 d-none d-xl-block ps-2 text-black">More</span>
+          </a>
+        </li>
+      </ul>
+      <div class="row m-0 wd-width-100 ps-2 pe-2">
+        <a href="#" class="btn btn-primary btn-block mt-3 wd-rounded fw-bold">Tuit</a>
+      </div>
+    </div>
+    <div class="col-xl-6 p-0 mx-2 col-lg-7 col-md-9 col-sm-9 col-9 border border-light border-1 pt-3">
+      <div class="ps-3 pe-3 mt-0 p-0 mb-2 wd-width-100">
+        <form class="form-inline row m-0 pl-3">
+          <div class="form-group col-10 p-0">
+            <div class="ps-0 pe-0 position-relative">
+              <input type="text" class="form-control wd-rounded ps-5 override-input wd-text-xs pt-2 pb-2"
+                     placeholder="Search Tuiter">
+              <div class="position-absolute bottom-0 mb-1 ms-2">
+                <i class="fas fa-search ms-2 wd-gray-color"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col form-group d-flex justify-content-end ps-0 pe-0 align-items-center">
+            <a href="explore-settings.html"><img class="wd-width-20" src="../../tuiter/images/settings.png"/></a>
+          </div>
+        </form>
+      </div>
+      <div class="wd-nav-bottom-margin">
+        <ul class="nav nav-tabs">
+          <li class="nav-item">
+            <div>
+              <a class="nav-link active" href="for-you.html">For you</a>
+            </div>
+
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="trending.html">Trending</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="news.html">News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sports.html">Sports</a>
+          </li>
+          <li class="nav-item d-none d-md-block">
+            <a class="nav-link" href="entertainment.html">Entertainment</a>
+          </li>
+        </ul>
+      </div>
+      <div class="card border-0">
+        <div class="position-relative">
+          <img src="../../tuiter/images/australia.png"
+               class="card-img-top" alt="...">
+          <div class="position-absolute bottom-0 left-0 p-1">
+            <p class="text-white ms-2 mb-2 fw-bold h3">Australian Open 2023</p>
+          </div>
+          <div class="position-absolute bottom-0 left-0 p-1">
+            <p class="text-white ms-2 mb-5">Tennis Tournament · LIVE</p>
+          </div>
+        </div>
+        <ul class="list-group">
+          <li class="list-group-item pt-0 pb-0">
+            <div class="row">
+              <div class="card-body col-xxl-10 col-xl-9 col-lg-9 col-md-10 col-sm-9 col-8 p-3 pe-0">
+                <div class="row wd-width-100 m-0">
+										<span class="card-title text-muted mb-0 col p-0 wd-text-xs d-flex align-items-center">
+											<p class="m-0">Politics · Trending</p>
+										</span>
+                  <span class="col p-0 pe-3 d-flex justify-content-end align-items-center">
+											<a class="d-flex justify-content-end align-items-center wd-no-decoration" href="#">
+												<img width="10px" height="10px" src="../../tuiter/images/ellipsis.png"/>
+											</a>
+										</span>
+                </div>
+
+                <div>
+										<span><h6 class="fw-bold m-0 d-inline">Seizures
+										</h6></span>
+                </div>
+                <p class="card-text text-muted wd-text-xs">4,953 Tuits</p>
+              </div>
+            </div>
+          </li>
+
+          <li class="list-group-item pt-0 pb-0">
+            <div class="row">
+              <div class="card-body col-xxl-10 col-xl-9 col-lg-9 col-md-10 col-sm-9 col-8 p-3 pe-2">
+                <div>
+                  <span><h6 class="fw-bold m-0 d-inline wd-text-xs">#InfinityPool</h6></span>
+                </div>
+                <h6 class="card-text text-muted mb-0 fw-bold">See the electrifying thriller Infinity Pool in theaters - if
+                                                              you
+                                                              dare</h6>
+                <span><i class="fa fa-arrow-up-right-from-square fa-xs text-muted"></i></span>
+                <span><p class="card-text text-muted d-inline wd-text-xs">Promoted by NEON</p></span>
+              </div>
+
+            </div>
+          </li>
+
+          <li class="list-group-item pt-0 pb-0">
+            <div class="row">
+              <div class="card-body col-xxl-10 col-xl-9 col-lg-9 col-md-10 col-sm-9 col-8 p-3 pe-0">
+                <div class="row wd-width-100 m-0">
+                  <span class="card-title text-muted mb-0 col p-0 wd-text-xs"><p class="m-0">Sports · Trending</p></span>
+                  <span class="col p-0 pe-3 d-flex justify-content-end align-items-center">
+											<a class="d-flex justify-content-end align-items-center wd-no-decoration" href="#">
+												<img width="10px" height="10px" src="../../tuiter/images/ellipsis.png"/>
+											</a>
+										</span>
+                </div>
+
+                <div>
+										<span><h6 class="fw-bold m-0 d-inline">RIP Bean
+										</h6></span>
+                </div>
+                <p class="card-text text-muted wd-text-xs">18K Tuits</p>
+              </div>
+            </div>
+          </li>
+
+          <li class="list-group-item pt-0 pb-0">
+            <div class="row">
+              <div class="card-body col-xxl-10 col-xl-9 col-lg-9 col-md-10 col-sm-9 col-8 p-3 pe-0">
+                <div class="row wd-width-100 m-0">
+                  <span class="card-title text-muted mb-0 col p-0 wd-text-xs"><p class="m-0">Politics · Trending</p></span>
+                  <span class="col p-0 pe-3 d-flex justify-content-end align-items-center">
+											<a class="d-flex justify-content-end align-items-center wd-no-decoration" href="#">
+												<img width="10px" height="10px" src="../../tuiter/images/ellipsis.png"/>
+											</a>
+										</span>
+                </div>
+
+                <div>
+										<span>
+											<h6 class="fw-bold m-0 d-inline">Durham</h6>
+										</span>
+                </div>
+                <p class="card-text text-muted wd-text-xs">Trending with <a class="wd-override-hyperlink" href="#" >Barr</a>,
+                  <a class="wd-override-hyperlink" href="#">Barr</a></p>
+              </div>
+            </div>
+          </li>
+
+          <li class="list-group-item pt-0 pb-0">
+            <div class="row">
+              <div class="card-body col-xxl-10 col-xl-9 col-lg-9 col-md-10 col-sm-9 col-8 p-3 pe-0">
+                <div class="row wd-width-100 m-0">
+										<span class="card-title text-muted mb-0 col p-0 wd-text-xs">
+											<p class="m-0">Trending in Business and finance</p>
+										</span>
+                  <span class="col p-0 pe-3 d-flex justify-content-end align-items-center">
+											<a class="d-flex justify-content-end align-items-center wd-no-decoration" href="#">
+												<img width="10px" height="10px" src="../../tuiter/images/ellipsis.png"/>
+											</a>
+										</span>
+                </div>
+
+                <div>
+										<span><h6 class="fw-bold m-0 d-inline">#DirectedEvolution
+										</h6></span>
+                </div>
+                <p class="card-text text-muted wd-text-xs">172K Tuits</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+    <div class="col p-0 mx-2 d-none d-lg-block pt-3">
+      <ul class="list-group wd-override-list-border-radius">
+        <li class="list-group-item d-flex align-items-center override-background pt-3">
+          <span class="fw-bold wd-text-lg">Who to follow</span>
+        </li>
+        <li class="list-group-item override-background pt-3">
+          <div class="row">
+            <div class="col-2 d-flex align-items-center justify-content-center p-0">
+              <img src="../../tuiter/images/northeastern.jpeg" class="rounded-circle wd-width-40"/>
+            </div>
+            <div class="col-7 ps-0 d-flex align-items-center p-0">
+              <div>
+                <span><h6 class="d-inline">Northeastern</h6></span>
+                <span>
+										<img class="wd-width-20" src="../../tuiter/images/check-blue.png"/>
+									</span>
+                <p class="d-block mb-0 text-muted wd-text-xs">@Northeastern</p>
+              </div>
+            </div>
+
+            <div class="col-3 d-flex align-items-center p-0 pe-3 justify-content-end">
+              <a href="#"><button class="btn btn-dark wd-rounded fw-bold">Follow</button></a>
+            </div>
+          </div>
+        </li>
+
+        <li class="list-group-item override-background pt-3">
+          <div class="row">
+            <div class="col-2 d-flex align-items-center justify-content-center p-0">
+              <img src="../../tuiter/images/matt.jpeg" class="rounded-circle wd-width-40"/>
+            </div>
+            <div class="col-7 d-flex align-items-center p-0">
+              <div>
+                <span><h6 class="d-inline">Matt Wallace</h6></span>
+                <span class="ps-0">
+									<img class="wd-width-20" src="../../tuiter/images/check-blue.png"/>
+									</span>
+                <p class="d-block mb-0 text-muted wd-text-xs">@MattWallace888</p>
+              </div>
+            </div>
+
+            <div class="col-3 d-flex align-items-center p-0 pe-3 justify-content-end">
+              <a href="#"><button class="btn btn-dark wd-rounded fw-bold">Follow</button></a>
+            </div>
+          </div>
+        </li>
+
+        <li class="list-group-item override-background pt-3">
+          <div class="row">
+            <div class="col-2 d-flex align-items-center justify-content-center p-0">
+              <img src="../../tuiter/images/pointsbet.png" class="wd-slight-rounded wd-width-40"/>
+            </div>
+            <div class="col-7 d-flex align-items-center p-0">
+              <div>
+                <span><h6 class="d-inline ">PointsBet Sps.</h6></span>
+                <span class="ps-0">
+									<img class="wd-width-20" src="../../tuiter/images/check-yellow.png"/>
+									</span>
+                <p class="d-block mb-0 text-muted wd-text-xs">@PointsBetUSA</p>
+              </div>
+            </div>
+
+            <div class="col-3 d-flex align-items-center p-0 pe-3 justify-content-end">
+              <a href="#"><button class="btn btn-dark wd-rounded fw-bold">Follow</button></a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-2 d-flex align-items-center p-0 ps-2"></div>
+            <div class="col-7 ps-2 d-flex align-items-center p-0">
+              <span><i class="fa fa-arrow-up-right-from-square fa-xs text-muted"></i></span>
+              <span class="ps-1"><p class="p-0 m-0 card-text text-muted d-inline wd-text-xs">Promoted</p></span>
+            </div>
+          </div>
+        </li>
+
+        <li class="list-group-item override-background">
+          <div class="row">
+            <div class="wd-color-blue mt-2 mb-2">
+              <a class="wd-override-hyperlink" href="#">
+                Show more
+              </a>
+            </div>
+          </div>
+        </li>
+
+      </ul>
+      <div class="text-muted m-3 ms-2 me-0 wd-text-xs">
+        <div class="mb-1">
+          <span class="ms-2">Terms of Service</span>
+          <span class="ms-2">Privacy Policy</span>
+          <span class="ms-2">Cookie Policy</span>
+        </div>
+        <div class="mb-1">
+          <span class="ms-2">Accessibility</span>
+          <span class="ms-2">Ads info</span>
+          <span class="ms-2">More...</span>
+        </div>
+        <div><p class="ms-2">@2023 Tuiter, Inc.</p></div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
