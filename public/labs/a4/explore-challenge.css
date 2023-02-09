@@ -46,6 +46,8 @@
     color: white;
     background-color: #079dec;
     border-color: #079dec;
+    padding-top:0.6em;
+    padding-bottom:0.6em;
 }
 
 .btn-primary:hover {
@@ -65,6 +67,8 @@
 .override-input {
     background-color: #eff3f4;
     border-width:0px;
+    padding-top:0.8em;
+    padding-bottom:0.8em;
 }
 
 .wd-gray-color {
