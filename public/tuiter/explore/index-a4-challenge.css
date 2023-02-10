@@ -87,16 +87,17 @@
     border-color: #449be9;
     border-width:0px 0px 4px 0px;
     color:black;
-    font-weight: bold;
+    /*font-weight: bold;*/
     padding:1em 0em 1em 0em;
     margin-left:1.5em;
     margin-right:1.5em;
 }
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link {
     color:gray;
-    font-weight: bold;
+    /*font-weight: bold;*/
+    font-weight:600;
     padding:1em 1.5em 1em 1.5em;
-    font-size:14px;
+    font-size:15px;
 }
 
 .wd-text-xs {
@@ -127,4 +128,7 @@
 .wd-no-decoration {
     color:black;
     text-decoration: none;
+}
+.wd-light-bold {
+    font-weight:500;
 }
