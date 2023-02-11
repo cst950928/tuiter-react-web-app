@@ -37,7 +37,7 @@
     font-size:0.5em;
 }
 
-.active.override-active {
+.active.wd-override-active {
     background-color: white;
     border-color: white;
 }
@@ -64,7 +64,7 @@
 .list-group-item.override-background {
     background-color: #eff3f4;
 }
-.override-input {
+.wd-override-input {
     background-color: #eff3f4;
     border-width:0px;
     padding-top:0.7em;
