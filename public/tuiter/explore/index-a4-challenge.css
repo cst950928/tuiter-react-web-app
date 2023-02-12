@@ -96,6 +96,9 @@
     padding:1em 1em 0.8em 1em;
 }
 .wd-text-xs {
+    font-size:13px;
+}
+.wd-text-sm {
     font-size:14px;
 }
 .wd-text-md {
