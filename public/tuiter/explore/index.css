@@ -27,3 +27,6 @@ a {
 a:hover {
     color:inherit;
 }
+.wd-override-padding {
+    padding:1em;
+}
