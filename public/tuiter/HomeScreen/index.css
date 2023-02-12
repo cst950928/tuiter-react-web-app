@@ -1,0 +1,31 @@
+.wd-font-half {
+    font-size:0.5em;
+}
+.wd-width-40 {
+    width: 40px;
+}
+.wd-width-100 {
+    width:100%;
+}
+.wd-rounded {
+    border-radius: 15px;
+}
+.wd-width-90 {
+    width: 90px;
+}
+.wd-gray-color {
+    color: gray;
+}
+input::placeholder {
+    color: gray;
+}
+.wd-dark-color {
+    color:#222
+}
+.wd-no-underline {
+    text-decoration-line: none;
+}
+.wd-override-padding {
+    padding:1em;
+
+}
