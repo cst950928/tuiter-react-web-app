@@ -19,3 +19,15 @@ const WhoToFollowList = () => {
 }
 
 export default WhoToFollowList;
+
+function followComponent() {
+    $('#wd-who-to-follow').append(`
+        <div class="row">
+            <div class="col-4">
+                ${WhoToFollowList()}
+            </div>
+        </div>
+        
+   `);
+}
+$(followComponent);

@@ -1,10 +1,32 @@
 export default [
     {
-        topic: 'Web Development',
-        userName: 'ReactJS',
-        time: '2h',
-        title: 'React.js is a component based front end library that makes it very easy to build Single Page Applications or SPAs',
-        image: 'react-blue.png'
+        userName: 'Elon Mask',
+        handle: '@elonmusk',
+        time:'23h',
+        avatar: 'rocket.jpeg',
+        text: 'Amazing show about ' + `<a href="#" class='wd-no-decoration'>@Inspiration4x</a>` + ' mission!',
+        image: 'netlify.jpeg',
+        cardTitle: 'Countdown: Inspiration4 Mission to Space | Netflix Official Site',
+        cardText: 'From training to launch to landing, this all-access docuseries rides along with the Inspiration4' +
+            ' crew on the first all-civilian orbital space ...',
+        cardLink: 'netflix.com',
+        comment: '4.2K',
+        repost: '3.5K',
+        like: '37.5K'
+    },
+    {
+        userName: 'New York Post',
+        handle: '@nypost',
+        time:'23h',
+        avatar: 'nypost.png',
+        text: "Grimes seen reading Kari Marx following split with world's richest man Elon Mush " + `<a href="#" class='wd-no-decoration'>trib.al/nx2Gfaq</a>`,
+        image: 'girl.jpeg',
+        cardTitle: '',
+        cardText: '',
+        cardLink: '',
+        comment: '965',
+        repost: '2.4K',
+        like: '4K'
     },
 ];
 

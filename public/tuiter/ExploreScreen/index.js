@@ -1,7 +1,6 @@
 import NavigationSidebar from "../NavigationSidebar/index.js";
 import WhoToFollowList from "../WhoToFollowList/index.js";
-import PostSummaryList from "../PostSummaryList";
-import ExploreComponent from "../ExploreScreen/ExploreComponent.js";
+import ExploreComponent from "./ExploreComponent.js";
 
 function exploreComponent() {
     $('#wd-explore').append(`

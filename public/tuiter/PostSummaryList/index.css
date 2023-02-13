@@ -1,0 +1,9 @@
+.wd-override-padding {
+    padding:1em;
+}
+.wd-rounded {
+    border-radius: 15px;
+}
+.wd-width-90 {
+    width: 90px;
+}

@@ -1,7 +1,5 @@
 import NavigationSidebar from "../NavigationSidebar/index.js";
-import WhoToFollowList from "../WhoToFollowList/index.js";
-import PostSummaryList from "../PostSummaryList";
-import ExploreComponent from "../ExploreScreen/ExploreComponent.js";
+import PostSummaryList from "../PostSummaryList/index.js";
 import PostList from "../PostList/index.js";
 
 function homeComponent() {
@@ -9,7 +7,7 @@ function homeComponent() {
       <h2>Home</h2>
       <div class="row mt-2">
            <div class="col-2 col-md-2 col-lg-1 col-xl-2">
-                ${NavigationSidebar()}
+                ${NavigationSidebar('Home')}
            </div>
            <div class="col-10 col-lg-7 col-xl-6 text-white">
                 ${PostList()}
