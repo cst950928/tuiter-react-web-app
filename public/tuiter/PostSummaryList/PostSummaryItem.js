@@ -16,7 +16,8 @@ const PostSummaryItem = (post) => {
                 </div>
 <!--                 <div class="col-4 col-xxl-3 col-xl-3 col-lg-3 col-md-4  d-flex justify-content-end align-items-center wd-override-padding ps-0"> -->
                 <div class="col d-flex justify-content-end align-items-center wd-override-padding ps-0">
-                    <img class="p-0 wd-width-90 wd-rounded" src="../images/${post.image}"/>
+                    <img class="p-0 wd-width-90 wd-rounded" src="../images/${post.image}" width="90px"/>
+                    
                 </div>
             </div>
         </li>

@@ -1,5 +1,5 @@
 // alert('Hello World!');
-
+/* eslint-env jquery */
 console.log('Hello World!');
 
 console.log('Variables and Constants');

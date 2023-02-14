@@ -4,7 +4,10 @@ import ExploreComponent from "./ExploreComponent.js";
 
 function exploreComponent() {
     $('#wd-explore').append(`
-      <h2>Explore</h2>
+<!--       <h2>Explore</h2> -->
+      <div class="mt-2 ms-2">
+            <a href="../navigation.html">Back</a>
+      </div>
       <div class="row mt-2">
            <div class="col-2 col-md-2 col-lg-1 col-xl-2">
                 ${NavigationSidebar('Explore')}
