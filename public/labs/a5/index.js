@@ -66,7 +66,7 @@ if(!false1) {
 
 console.log('Ternary conditional operator');
 // change const into var since the later code will revise the value
-var loggedIn = true;
+let loggedIn = true;
 const greeting = loggedIn ? 'Welcome!' : 'Please login';
 console.log(greeting)
 
@@ -89,7 +89,7 @@ const multiply = (a, b) => a * b;
 const fourTimesFive = multiply(4, 5);
 console.log(fourTimesFive);
 
-console.log('Optional parenthesis and parameters');
+console.log('Parenthesis and parameters');
 const square = a => a * a;
 const plusOne = a => a + 1;
 const twoSquared = square(2);
@@ -117,7 +117,7 @@ const index1 = numberArray1.indexOf(3);
 console.log(length1);
 console.log(index1);
 
-console.log("Adding and Removing Data to/from Arrays");
+console.log("Add and remove data to arrays");
 // adding new items
 numberArray1.push(6);
 stringArray1.push('string3');
