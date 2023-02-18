@@ -3,7 +3,7 @@ const PostItem = (post) => {
         <li class="list-group-item bg-transparent pt-3 pb-0">
                     <div class="row">
                         <div class="col p-0 d-flex justify-content-center">
-                            <img class="rounded-pill" width="52px" height="52px" src="../images/${post.avatar}"/>
+                            <img class="rounded-pill" width="50px" height="50px" src="../images/${post.avatar}"/>
                         </div>
                         <div class="col-10 ps-0 pe-0 wd-override-width" >
                             <div class="row wd-width-100 m-0">
