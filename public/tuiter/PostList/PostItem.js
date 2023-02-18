@@ -43,7 +43,7 @@ const PostItem = (post) => {
                                         <span class="text-muted ms-3">${post.comment}</span>
                                     </div>
                                     <div class="col  d-flex align-items-center">
-                                        <i class="fab fa-retweet text-muted"></i>
+                                        <i class="fa fa-retweet text-muted"></i>
                                         <span class="text-muted ms-3">${post.repost}</span>
                                     </div>
                                     <div class="col  d-flex align-items-center">
