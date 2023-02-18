@@ -13,6 +13,9 @@ body {
 .wd-width-90 {
     width: 90px;
 }
+.wd-override-width {
+    width:86%;
+}
 .wd-gray-color {
     color: gray;
 }

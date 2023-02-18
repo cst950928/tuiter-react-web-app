@@ -3,9 +3,9 @@ const PostItem = (post) => {
         <li class="list-group-item bg-transparent pt-3 pb-0">
                     <div class="row">
                         <div class="col p-0 d-flex justify-content-center">
-                            <img class="rounded-pill" width="55px" height="55px" src="../images/${post.avatar}"/>
+                            <img class="rounded-pill" width="52px" height="52px" src="../images/${post.avatar}"/>
                         </div>
-                        <div class="col-10 ps-0 pe-0" style="width:86%">
+                        <div class="col-10 ps-0 pe-0 wd-override-width" >
                             <div class="row wd-width-100 m-0">
                                 <span class="text-white mb-1 col-10 p-0 d-flex align-items-center">
                                     <h6 class="m-0 fw-bold">${post.userName}</h6>
@@ -20,7 +20,7 @@ const PostItem = (post) => {
                             </div>
 
                             <p class="text-white pe-2">${post.text}</p>
-                            <div class="card wd-mid-right-margin bg-transparent wd-border-gray" style="border-radius: 20px; ">
+                            <div class="card wd-mid-right-margin bg-transparent wd-border-gray wd-round">
                                 <img src="../images/${post.image}" class="card-img-top ${post.cardLink === '' ? `wd-round` : `wd-upper-round wd-border-gray wd-border-bottom-only`}" alt="...">
                                 ${post.cardLink !== '' ?
                                    ` <div class="card-body pe-2">
@@ -38,21 +38,21 @@ const PostItem = (post) => {
                             </div>
                             <div class="m-3 ms-0">
                                 <div class="row">
-                                    <div class="col d-flex align-items-center">
+                                    <a class="col d-flex align-items-center wd-no-underline" href="#">
                                         <i class="fa-regular fa-comment text-muted"></i>
                                         <span class="text-muted ms-3">${post.comment}</span>
-                                    </div>
-                                    <div class="col  d-flex align-items-center">
+                                    </a>
+                                    <a class="col  d-flex align-items-center wd-no-underline"  href="#">
                                         <i class="fa fa-retweet text-muted"></i>
                                         <span class="text-muted ms-3">${post.repost}</span>
-                                    </div>
-                                    <div class="col  d-flex align-items-center">
+                                    </a>
+                                    <a class="col  d-flex align-items-center wd-no-underline"  href="#">
                                         <i class="fa-regular fa-heart text-muted"></i>
                                         <span class="text-muted ms-3">${post.like}</span>
-                                    </div>
-                                    <div class="col  d-flex align-items-center">
+                                    </a>
+                                    <a class="col  d-flex align-items-center wd-no-underline"  href="#">
                                         <i class="fa fa-upload text-muted "></i>
-                                    </div>
+                                    </a>
                                 </div>
                                 
                             </div>

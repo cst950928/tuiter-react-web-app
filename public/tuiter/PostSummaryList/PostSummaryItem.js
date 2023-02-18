@@ -3,7 +3,7 @@ const PostSummaryItem = (post) => {
         <li class="list-group-item pt-0 pb-0">
             <div class="row">
 <!--                 <div class="card-body col-8 col-xxl-9 col-xl-9 col-lg-9 col-md-8 wd-override-padding pe-0"> -->
-                <div class="card-body col-6 col-xxl-8 col-xl-8 col-lg-7 col-md-7 wd-override-padding pe-0">
+                <div class="card-body col-5 col-xxl-8 col-xl-8 col-lg-7 col-md-7 wd-override-padding pe-0">
                     <p class="card-title text-muted mb-0">${post.topic}</p>
                     <div>
                         <span><h6 class="fw-bold m-0 d-inline">${post.userName}</h6></span>
