@@ -3,6 +3,7 @@
     {
         "_id": 1,
         "text": "Home",
+        "keyword": "home",
         "icon": "fa-home",
         "hyperlink": "#"
     },
@@ -10,42 +11,49 @@
     {
         "_id": 2,
         "text": "Explore",
+        "keyword": "explore",
         "icon": "fa-hashtag",
         "hyperlink": "#"
     },
     {
         "_id": 3,
         "text": "Notifications",
+        "keyword": "notifications",
         "icon": "fa-bell",
         "hyperlink": "#"
     },
     {
         "_id": 4,
         "text": "Messages",
+        "keyword": "messages",
         "icon": "fa-envelope",
         "hyperlink": "#"
     },
     {
         "_id": 5,
         "text": "Bookmarks",
+        "keyword": "bookmarks",
         "icon": "fa-bookmark",
         "hyperlink": "#"
     },
     {
         "_id": 6,
         "text": "Lists",
+        "keyword": "lists",
         "icon": "fa-list",
         "hyperlink": "#"
     },
     {
         "_id": 7,
         "text": "Profile",
+        "keyword": "profile",
         "icon": "fa-user",
         "hyperlink": "#"
     },
     {
         "_id": 8,
         "text": "More",
+        "keyword": "more",
         "icon": "fa-ellipsis",
         "hyperlink": "#"
     }

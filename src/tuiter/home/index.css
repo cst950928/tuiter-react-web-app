@@ -13,10 +13,18 @@
 .wd-gray-border {
     border-style: solid;
     border-width:1px;
-    border-color: darkgrey;
+    border-color: #ced4da;
     border-radius: 20px;
 }
 
 .wd-no-underline {
     text-decoration-line: none;
+}
+
+.wd-override-width {
+    width:86%;
+}
+
+.wd-retweet-fontsize {
+    font-size: 0.9em;
 }

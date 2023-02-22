@@ -2,18 +2,18 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import { faCheckCircle, faEllipsis, faComment, faRetweet, faHeart, faUpload} from '@fortawesome/free-solid-svg-icons';
 const PostItem = ({post}) => {
     return (
-        <li class="list-group-item bg-transparent pt-3 pb-0 border-light">
+        <li className="list-group-item bg-transparent pt-3 pb-0 border-light">
             {post.retweet !== undefined &&
-                <div className="row">
-                    <div className={"col d-flex align-items-center justify-content-end"}>
+                <div className="row wd-retweet-fontsize">
+                    <div className={"col d-flex align-items-center justify-content-end pe-4"}>
                         <FontAwesomeIcon icon={faRetweet} className={"text-muted"}/>
                     </div>
-                    <div className={"col-10 p-0 text-muted fw-bold"}>
+                    <div className={"col-10 p-0 text-muted fw-bold "}>
                         {post.retweet} Retweeted
                     </div>
                 </div>
             }
-            <div class="row">
+            <div className="row">
                 <div className={"col p-0 d-flex justify-content-center"}>
                     <img className={"rounded-pill"}
                          width="50px"
@@ -35,7 +35,7 @@ const PostItem = ({post}) => {
                         </span>
                     </div>
 
-                    <p className="pe-2">{post.text}{post.link != undefined ? ' ->' : '.'} <a href="#">{post.link != undefined? post.link : ''}</a></p>
+                    <p className="pe-2">{post.text}{post.link != undefined ? ' ->' : '.'} <a href="#" className={"wd-no-underline"}>{post.link != undefined? post.link : ''}</a></p>
 
                     <div className={`wd-mid-right-margin bg-transparent wd-round wd-gray-border`}>
                         {!post.subTweet ? <img src={post.image}
@@ -47,12 +47,12 @@ const PostItem = ({post}) => {
                                         <img className={"rounded-pill"}
                                              width="25px"
                                              height="25px"
-                                             src={post.avatar} />
-                                        <span className={"m-0 fw-bold ms-1"}>{post.userName}</span>
+                                             src={post.subTweetAvatar} />
+                                        <span className={"m-0 fw-bold ms-1"}>{post.subTweetUserName}</span>
                                         <FontAwesomeIcon icon={faCheckCircle} className={"text-primary ms-1"}/>
                                         <span className={"text-muted ms-1"}>{post.subTweetHandle} · {post.subTweetTime}</span>
                                     </div>
-                                    <p className="m-0 p-0">{post.subTweetContent}{post.subTweetLink != undefined ? ' ->' : '.'} <a href="#">{post.subTweetLink != undefined? post.subTweetLink : ''}</a></p>
+                                    <p className="m-0 p-0">{post.subTweetContent}{post.subTweetLink != undefined ? ' ->' : '.'} <a href="#" className={"wd-no-underline"}>{post.subTweetLink != undefined? post.subTweetLink : ''}</a></p>
                                 </div>
                             )
 
