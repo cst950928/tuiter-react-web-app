@@ -1,0 +1,52 @@
+
+[
+    {
+        "_id": 1,
+        "text": "Home",
+        "icon": "fa-home",
+        "hyperlink": "#"
+    },
+
+    {
+        "_id": 2,
+        "text": "Explore",
+        "icon": "fa-hashtag",
+        "hyperlink": "#"
+    },
+    {
+        "_id": 3,
+        "text": "Notifications",
+        "icon": "fa-bell",
+        "hyperlink": "#"
+    },
+    {
+        "_id": 4,
+        "text": "Messages",
+        "icon": "fa-envelope",
+        "hyperlink": "#"
+    },
+    {
+        "_id": 5,
+        "text": "Bookmarks",
+        "icon": "fa-bookmark",
+        "hyperlink": "#"
+    },
+    {
+        "_id": 6,
+        "text": "Lists",
+        "icon": "fa-list",
+        "hyperlink": "#"
+    },
+    {
+        "_id": 7,
+        "text": "Profile",
+        "icon": "fa-user",
+        "hyperlink": "#"
+    },
+    {
+        "_id": 8,
+        "text": "More",
+        "icon": "fa-ellipsis",
+        "hyperlink": "#"
+    }
+]

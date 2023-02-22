@@ -1,0 +1,39 @@
+
+[
+  {
+    "_id": 1,
+    "text": "For You",
+    "hyperlink": "for-you.html",
+    "active": true,
+    "hide": false
+  },
+
+  {
+    "_id": 2,
+    "text": "Trending",
+    "hyperlink": "trending.html",
+    "active": false,
+    "hide": false
+  },
+  {
+    "_id": 3,
+    "text": "News",
+    "hyperlink": "news.html",
+    "active": false,
+    "hide": false
+  },
+  {
+    "_id": 4,
+    "text": "Sports",
+    "hyperlink": "sports.html",
+    "active": false,
+    "hide": false
+  },
+  {
+    "_id": 5,
+    "text": "Entertainment",
+    "hyperlink": "entertainment.html",
+    "active": false,
+    "hide": true
+  }
+]
