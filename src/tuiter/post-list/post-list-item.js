@@ -38,7 +38,7 @@ const PostItem = ({post}) => {
                         </span>
                     </div>
 
-                    <p className="pe-2">{post.text}{post.link != undefined ? ' ->' : '.'} <a href="#" className={"wd-no-underline wd-blue"}>{post.link != undefined? post.link : ''}</a></p>
+                    <p className="pe-2">{post.text}{post.link !== undefined ? ' ->' : '.'} <a href="#" className={"wd-no-underline wd-blue"}>{post.link !== undefined? post.link : ''}</a></p>
 
                     <div className={`wd-mid-right-margin bg-transparent wd-round wd-gray-border`}>
                         {!post.subTweet ? <img src={post.image}
@@ -55,7 +55,7 @@ const PostItem = ({post}) => {
                                         <BsPatchCheckFill className={"ms-1 wd-blue"}/>
                                         <span className={"text-muted ms-1"}>{post.subTweetHandle} · {post.subTweetTime}</span>
                                     </div>
-                                    <p className="m-0 p-0">{post.subTweetContent}{post.subTweetLink != undefined ? ' ->' : '.'} <a href="#" className={"wd-no-underline text-dark"}>{post.subTweetLink != undefined? post.subTweetLink : ''}</a></p>
+                                    <p className="m-0 p-0">{post.subTweetContent}{post.subTweetLink !== undefined ? ' ->' : '.'} <a href="#" className={"wd-no-underline text-dark"}>{post.subTweetLink !== undefined? post.subTweetLink : ''}</a></p>
                                 </div>
                             )
 

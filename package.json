@@ -29,12 +29,7 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ],
-    "rules": {
-      "jsx-a11y/anchor-is-valid": "off",
-      "jsx-a11y/alt-text": "off",
-      "react/jsx-no-duplicate-props": "off"
-    }
+    ]
   },
   "browserslist": {
     "production": [

@@ -1,9 +1,8 @@
 import React from "react";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faT, faLaptop} from '@fortawesome/free-solid-svg-icons';
+import {faT} from '@fortawesome/free-solid-svg-icons';
 import NavBarItem from "./nav-bar-items.js";
 import navBarsArray from "./navbars.json";
-import {Link} from "react-router-dom";
 import {useLocation} from "react-router";
 
 const NavigationSidebar = () => {
