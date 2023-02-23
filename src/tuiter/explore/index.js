@@ -12,7 +12,7 @@ const ExploreComponent = () => {
                             <input type="text"
                                    className="form-control rounded-pill ps-5"
                                    placeholder="Search Tuiter"/>
-                                <div className="position-absolute bottom-0 ms-3 wd-nudge-up">
+                                <div className="position-absolute bottom-0 ms-3 wd-bottom-half">
                                     <i className="bi bi-search"></i>
                                 </div>
                         </div>
@@ -28,9 +28,9 @@ const ExploreComponent = () => {
                 <img src="/images/spacex.jpeg" className="w-100"/>
                 <h1 className="position-absolute wd-nudge-up text-white">
                     SpaceX Starship</h1>
-                <div className="position-absolute bottom-0 left-0 p-1">
-                    <p className="mb-0 fw-bold h1 text-white">SpaceX's Starship</p>
-                </div>
+                {/*<div className="position-absolute bottom-0 left-0 p-1">*/}
+                {/*    <p className="mb-0 fw-bold h1 text-white">SpaceX's Starship</p>*/}
+                {/*</div>*/}
             </div>
             <PostSummaryList/>
         </>

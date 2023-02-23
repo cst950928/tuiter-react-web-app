@@ -17,41 +17,48 @@
     },
     {
         "_id": 3,
+        "text": "Labs",
+        "keyword": "labs",
+        "icon": "fa-laptop",
+        "hyperlink": "#"
+    },
+    {
+        "_id": 4,
         "text": "Notifications",
         "keyword": "notifications",
         "icon": "fa-bell",
         "hyperlink": "#"
     },
     {
-        "_id": 4,
+        "_id": 5,
         "text": "Messages",
         "keyword": "messages",
         "icon": "fa-envelope",
         "hyperlink": "#"
     },
     {
-        "_id": 5,
+        "_id": 6,
         "text": "Bookmarks",
         "keyword": "bookmarks",
         "icon": "fa-bookmark",
         "hyperlink": "#"
     },
     {
-        "_id": 6,
+        "_id": 7,
         "text": "Lists",
         "keyword": "lists",
         "icon": "fa-list",
         "hyperlink": "#"
     },
     {
-        "_id": 7,
+        "_id": 8,
         "text": "Profile",
         "keyword": "profile",
         "icon": "fa-user",
         "hyperlink": "#"
     },
     {
-        "_id": 8,
+        "_id": 9,
         "text": "More",
         "keyword": "more",
         "icon": "fa-ellipsis",

@@ -1,6 +1,6 @@
 import React from "react";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faT} from '@fortawesome/free-solid-svg-icons';
+import {faT, faLaptop} from '@fortawesome/free-solid-svg-icons';
 import NavBarItem from "./nav-bar-items.js";
 import navBarsArray from "./navbars.json";
 import {Link} from "react-router-dom";
@@ -10,7 +10,6 @@ const NavigationSidebar = () => {
     const {pathname} = useLocation();
     const paths = pathname.split('/')
     const active = paths[2] === '' || paths[2] === undefined ? 'explore' : paths[2];
-    console.log(active);
     return (
         <>
             <div className="list-group">
@@ -23,9 +22,6 @@ const NavigationSidebar = () => {
                         <NavBarItem key={nav._id} nav={nav} active={active}/>
                     )
                 }
-                <Link to="/" className="list-group-item">
-                    Labs
-                </Link>
             </div>
             <div className="d-grid mt-2">
                 <a href="tweet.html"

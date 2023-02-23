@@ -21,10 +21,18 @@
     text-decoration-line: none;
 }
 
+.wd-no-decoration {
+    text-decoration: none;
+}
+
 .wd-override-width {
     width:86%;
 }
 
 .wd-retweet-fontsize {
     font-size: 0.9em;
+}
+
+.wd-blue {
+    color: #449be9;
 }
