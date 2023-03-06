@@ -1,0 +1,51 @@
+.banner-img {
+    width: 100%;
+    height: 200px;
+}
+
+.banner-cover {
+    background-color: grey;
+    opacity:0.4;
+    bottom: 0px;
+}
+
+.profile-img {
+    width: 140px;
+    left: 20px;
+    top:130px;
+}
+
+.profile-cover {
+    background-color: grey;
+    opacity:0.4;
+    height: 130px;
+    width: 130px;
+    left: 25px;
+    top:135px;
+}
+
+.banner-icon-x {
+    top: 90px;
+    left: 50%;
+    color: #56595c;
+}
+.banner-icon-photo {
+    top: 90px;
+    left: 40%;
+}
+
+.profile-icon {
+    left: 75px;
+    top:182px;
+    color: #56595c;
+}
+
+.input-div {
+    margin-top: 85px;
+}
+
+.light-bold {
+    font-weight: 500;
+    font-size:16px;
+}
+.wd-no-resize { resize: none; }
