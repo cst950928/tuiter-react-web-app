@@ -1,12 +1,11 @@
 import React from "react";
 import EditHeader from "./edit-header";
-import EditBody from "./edit-body";
+import './index.css'
 
 const EditProfile = () => {
     return (
-       <div className={`border border-muted`}>
+       <div className={`border border-muted wd-scroll`}>
            <EditHeader/>
-           <EditBody/>
        </div>
     )
 }

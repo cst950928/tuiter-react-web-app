@@ -8,8 +8,8 @@ const ProfileBody = () => {
     return (
         <div>
             <div className={`position-relative`}>
-                <img src="/images/banner.jpeg" className={`banner-img`}/>
-                <img src="/images/react-blue.png" className={`profile-img rounded-circle position-absolute`}/>
+                <img src={`/images/${profile.bannerPicture}`} alt={`banner`} className={`banner-img`}/>
+                <img src={`/images/${profile.profilePicture}`} alt={`profile`} className={`profile-img rounded-circle position-absolute`}/>
             </div>
             <div className={`d-flex justify-content-end mt-3 me-3`}>
                 <Link to="../edit-profile">
@@ -19,7 +19,7 @@ const ProfileBody = () => {
             <div className={`mt-5 ms-4 me-4`}>
                 <h5 className={`fw-bold mb-1`}>{profile.firstName} {profile.lastName}</h5>
                 <p className={`text-muted light-bold`}>{profile.handle}</p>
-                <p className={`light-bold m-0`}>Faculty, Software Engineer, AI, Space, and renewable enthusiast. Retweets and likes are not endorsements.</p>
+                <p className={`light-bold m-0`}>{profile.bio}</p>
             </div>
         </div>
 

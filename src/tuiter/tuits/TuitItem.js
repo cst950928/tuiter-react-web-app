@@ -2,14 +2,13 @@ import {BsPatchCheckFill} from 'react-icons/bs';
 import TuitStats from './TuitStats'
 import {useDispatch} from "react-redux";
 import {deleteTuit} from "./tuits-reducer";
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faEllipsis} from "@fortawesome/free-solid-svg-icons";
 
 const TuitItem = ({post}) => {
     const dispatch = useDispatch();
     const deleteTuitHandler = (id) => {
         dispatch(deleteTuit(id));
     }
+
     return (
         <li className="list-group-item bg-transparent pt-3 pb-0 border border-muted">
             <div className="row">

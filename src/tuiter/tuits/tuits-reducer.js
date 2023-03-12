@@ -31,9 +31,13 @@ const tuitsSlice = createSlice({
         deleteTuit(state, action) {
             const index = state.findIndex(tuit => tuit._id === action.payload)
             state.splice(index, 1);
+        },
+        updateStats(state, action) {
+            const index = state.findIndex(tuit => tuit._id === action.payload._id)
+            return [...state.slice(0, index), {...state[index], ...action.payload.data}, ...state.slice(index + 1)]
         }
     }
 });
 
-export const {createTuit, deleteTuit} = tuitsSlice.actions;
+export const {createTuit, deleteTuit, updateStats} = tuitsSlice.actions;
 export default tuitsSlice.reducer;
