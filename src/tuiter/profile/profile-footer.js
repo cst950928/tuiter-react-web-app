@@ -17,7 +17,7 @@ const ProfileFooter = () => {
                 </div>
                 <div className="d-flex align-items-center pe-0 d-inline-flex me-3">
                     <FaBirthdayCake className={"footer-img"}/>
-                    <span className="light-bold ms-0 text-muted">{profile.dateOfBirth}</span>
+                    <span className="light-bold ms-0 text-muted">Born {profile.dateOfBirth}</span>
                 </div>
                 <div className="d-flex align-items-center pe-0 d-inline-flex">
                     <BsCalendar3 className={`footer-img`}/>
