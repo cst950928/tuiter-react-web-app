@@ -24,7 +24,7 @@ const EditHeader = () => {
     const years = Array.from(new Array(duration + 1),(val, index) => index + startYear);
     const days = Array.from(new Array(31), (val, index) => index + 1);
 
-    const [profile_, setProfile_] = useState({...profile, "name": profile.firstName + ' ' + profile.lastName});
+    const [profile_, setProfile_] = useState({...profile, "name": (profile.firstName === '' && profile.lastName === '') ? '' : profile.firstName + ' ' + profile.lastName});
     const editFields = [
         {
             id: "name",
@@ -45,9 +45,11 @@ const EditHeader = () => {
     ]
     const handleClick = () => {
         const name = profile_.name;
+        const fName = name.split(' ')[0];
+        const lName = name.split(' ')[1];
         const newProfile = {
-            firstName: name.split(' ')[0],
-            lastName: name.split(' ')[1],
+            firstName: fName === undefined ? '' : fName,
+            lastName: lName === undefined ? '' : lName,
             bio: profile_.bio,
             location: profile_.location,
             website : profile_.website,
