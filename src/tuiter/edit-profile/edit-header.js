@@ -58,16 +58,16 @@ const EditHeader = () => {
 
     return (
         <div>
-            <div className={`row mt-2 mb-2 d-flex align-items-center`}>
-                <div className={`col-1`}>
+            <div className={`row m-0 mt-2 mb-2 d-flex align-items-center w-100`}>
+                <div className={`col-1 p-0`}>
                     <Link to="../profile">
                         <GrClose className={`ms-3`}/>
                     </Link>
                 </div>
-                <div className={`col-8`}>
-                    <h5 className={`fw-bold p-0 m-0`}>Edit profile</h5>
+                <div className={`col-6 p-0`}>
+                    <h5 className={`fw-bold p-0 m-0 ms-3`}>Edit profile</h5>
                 </div>
-                <div className={`col d-flex justify-content-end me-3`}>
+                <div className={`col d-flex justify-content-end me-3 p-0`}>
                     <Link to="../profile">
                         <button className={`btn btn-dark rounded-pill ps-3 pe-3 fw-bold`} onClick={handleClick}>Save</button>
                     </Link>
