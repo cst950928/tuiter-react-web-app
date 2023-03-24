@@ -17,7 +17,7 @@ const ProfileBody = () => {
                 </Link>
             </div>
             <div className={`mt-5 ms-4 me-4`}>
-                <h5 className={`fw-bold mb-1`}>{profile.firstName} {profile.lastName}</h5>
+                <h5 className={`fw-bold mb-1`}>{profile.firstName}&nbsp;{profile.lastName}</h5>
                 <p className={`text-muted light-bold`}>{profile.handle}</p>
                 <p className={`light-bold m-0`}>{profile.bio}</p>
             </div>

@@ -11,7 +11,7 @@ const ProfileHeader = () => {
                 <FaArrowLeft className={`fw-bold ms-3`}/>
             </div>
             <div className={`col ms-4 p-0`}>
-                <h5 className={`fw-bold mb-0 mt-1`}>{profile.firstName} {profile.lastName}</h5>
+                <h5 className={`fw-bold mb-0 mt-1`}>{profile.firstName}&nbsp;{profile.lastName}</h5>
                 <p className={`text-muted mt-0 mb-1 light-bold`}>6,114 Tweets</p>
             </div>
         </div>
