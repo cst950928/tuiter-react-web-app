@@ -1,12 +1,12 @@
 import {BsPatchCheckFill} from 'react-icons/bs';
 import TuitStats from './TuitStats'
 import {useDispatch} from "react-redux";
-import {deleteTuit} from "./tuits-reducer";
+import {deleteTuitThunk} from "../../services/tuits-thunks";
 
 const TuitItem = ({post}) => {
     const dispatch = useDispatch();
     const deleteTuitHandler = (id) => {
-        dispatch(deleteTuit(id));
+        dispatch(deleteTuitThunk(id));
     }
 
     return (
@@ -22,7 +22,7 @@ const TuitItem = ({post}) => {
                     <div className={"row wd-width-100 m-0"}>
 
                         <span className={"col-10 p-0 d-flex align-items-center"}>
-                            <h6 className={"m-0 fw-bold"}>{post.userName}</h6>
+                            <h6 className={"m-0 fw-bold"}>{post.username}</h6>
                             <BsPatchCheckFill className={"ms-2 text-primary"}/>
                             <span className={"ms-2"}>{post.handle} · {post.time}</span>
                         </span>
