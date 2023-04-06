@@ -17,6 +17,7 @@ const WhatsHappening = () => {
         "replies": 0,
         "retuits": 0,
         "likes": 0,
+        "title": "NASA Space Info"
     }
 
     let [whatsHappening, setWhatsHappening] = useState('');
